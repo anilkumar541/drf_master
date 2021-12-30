@@ -1,0 +1,29 @@
+1. select * from students; 
+
+	#select all the records from students tables.
+
+2. select name from students
+   WHERE name LIKE '%re%';
+
+	#select only name from students table that contain "re".
+
+3. insert into students (name, roll_no) values ('mansi', 212);
+
+	#this query will insert record in the table
+
+4. update students set name='krishna', roll_no=99
+	where id=5;
+	
+	#will update the name and roll_no where id=5;
+
+5. delete from students where name='priyanka';
+	
+	#will delete the record where name="priyanka" and we can also delete records usnig id and roll_no.
+
+6. select * from students
+	join teachers
+	on students.id=teachers.student_id;
+
+	#performed inner join on both student and teahcer tables and where we get only common records from both tables.
+
+	
